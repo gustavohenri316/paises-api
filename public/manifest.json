@@ -1,0 +1,16 @@
+{
+  "name": "Porcesso Seletivo Azapfy",
+  "short_name": "Aplicativo de países de pesquisa",
+  "icons": [
+    {
+      "src": "",
+      "sizes": "",
+      "type": ""
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#202c37",
+  "theme_color": "#202c37"
+}

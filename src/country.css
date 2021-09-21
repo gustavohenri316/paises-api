@@ -1,0 +1,77 @@
+.pais {
+  padding: 50px;
+}
+
+
+.pais article .pais-detalhes div {
+  margin: 30px 0;
+}
+
+.pais article .pais-detalhes div h2 {
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+.pais article .pais-detalhes div h5 {
+  font-weight: 600;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.pais article .pais-detalhes div h5 span {
+  font-weight: 300;
+}
+
+.pais article h3 {
+  font-weight: 600;
+}
+
+.pais article .borders {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pais article .borders ul {
+  margin: 10px;
+  background-color: #0e3959;
+  padding: 3px 20px;
+  border-radius: 3px;
+  box-shadow: 0 5px 20px #0e3959;
+}
+
+.pais article .borders  {
+  background-color: #12476f;
+}
+
+@media (min-width: 992px) {
+  .pais article .pais-inner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+
+  .pais .pais-detalhes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .pais {
+    max-width: 1100px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1366px) {
+  .pais {
+    max-width: 1200px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .pais {
+    max-width: 1400px;
+  }
+}
